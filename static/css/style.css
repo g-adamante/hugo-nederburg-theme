@@ -18,7 +18,7 @@ Tracks is distributed under the terms of the GNU GPL
 /* Theme Colors */
 .site-title, .toggle-navigation i {
   font-size: 1.625em;
-  line-height: 1.85;
+  line-height: 1;
 }
 
 .wp-caption-text, .excerpt-meta, .entry-meta, .more-link, .pagination, .further-reading span,
@@ -28,7 +28,7 @@ Tracks is distributed under the terms of the GNU GPL
 .entry-tags span,
 .entry-tags a, .author-meta .author span, .comments-number h2, .comment-author div, .design-credit, .singular-attachment .attachment-caption, .widget li, .menu-footer-items a, .menu-secondary-items a {
   font-size: 0.813em;
-  line-height: 1.85;
+  line-height: 1;
 }
 
 .entry-container, .comments {
@@ -39,9 +39,8 @@ Tracks is distributed under the terms of the GNU GPL
 .menu-primary-items a, .excerpt-meta, .entry-meta, .excerpt-title, .entry-title, .more-link, .pagination, .further-reading,
 .entry-categories,
 .entry-tags, .author-meta .author span, .comments-number h2, .comment-author .author-name, .site-footer h1, .design-credit, .widget-title, .widget li, .menu-footer-items a, .menu-secondary-items a {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
+  font-family: 'Vesper Libre', serif;
+  font-weight: 600;
 }
 
 /* Social Media Brand Colors */
@@ -62,12 +61,12 @@ background-size: 11.1%; /* This is at 6-columns -> just change this # */
 
 body {
   height: 100%;
-  font-size: 100%;
+  font-size: 120%;
   margin: 0;
   padding: 0;
   font-family: "raleway", sans-serif;
   line-height: 1.5;
-  color: #4d4d4d;
+  color: #1f1c1c;
   background: #222;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
@@ -131,13 +130,13 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.75em;
   /* 36px / 16px */
   line-height: 1.34;
 }
 
 h3 {
-  font-size: 1.625em;
+  font-size: 1.525em;
   /* 26px / 16px */
   line-height: 1.85;
 }
@@ -217,13 +216,13 @@ table {
 
 td {
   padding: 0.5em 0.75em;
-  border: solid 1px #4d4d4d;
+  border: solid 1px #1f1c1c;
   line-height: 1.5;
 }
 
 th {
   padding: 0.5em 0.75em;
-  border: solid 1px #4d4d4d;
+  border: solid 1px #1f1c1c;
   line-height: 1.5;
 }
 
@@ -827,16 +826,16 @@ a img {
 }
 
 .excerpt-title, .entry-title {
-  letter-spacing: 0.04em;
   font-size: 1.313em;
+  line-height: 100%;
+  padding-top:20px;
   /* 21px / 16px */
-  line-height: 1.143;
 }
 .excerpt-title a, .entry-title a {
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .excerpt-title a:link, .entry-title a:link, .excerpt-title a:visited, .entry-title a:visited {
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .excerpt-title a:hover, .entry-title a:hover, .excerpt-title a:active, .entry-title a:active, .excerpt-title a:focus, .entry-title a:focus {
   color: #222;
@@ -848,7 +847,7 @@ a img {
 .excerpt-header:after, .entry-header:after {
   content: '';
   position: absolute;
-  background: #4d4d4d;
+  background: #1f1c1c;
   width: 4.5em;
   height: 0.375em;
   left: 0;
@@ -864,11 +863,11 @@ a img {
 .more-link {
   position: relative;
   text-decoration: none;
-  color: #4d4d4d;
+  color: #1f1c1c;
   clear: both;
 }
 .more-link:link, .more-link:visited {
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .more-link:hover, .more-link:active, .more-link:focus {
   color: #222;
@@ -882,7 +881,7 @@ a img {
   position: absolute;
   width: 1.5em;
   height: 3px;
-  background: #4d4d4d;
+  background: #1f1c1c;
   bottom: -0.75em;
   left: 0;
   right: 0;
@@ -939,7 +938,7 @@ a img {
   .excerpt-title, .entry-title {
     font-size: 1.875em;
     /* 30px */
-    line-height: 1.6;
+    line-height: 1;
   }
 }
 /* 900px */
@@ -1215,7 +1214,7 @@ a img {
   }
 
   .entry-header h1 {
-    font-size: 4.25em;
+    font-size: 2em;
     line-height: 1.06;
   }
 
@@ -1324,10 +1323,10 @@ li.pingback:first-child {
 }
 .comment-author .author-name a {
   text-decoration: none;
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .comment-author .author-name a:link, .comment-author .author-name a:visited {
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .comment-author .author-name a:hover, .comment-author .author-name a:active, .comment-author .author-name a:focus {
   color: #222;
@@ -1343,13 +1342,13 @@ li.pingback:first-child {
 
 .comment-reply-link,
 .comment-edit-link {
-  color: #4d4d4d;
+  color: #1f1c1c;
   text-decoration: none;
 }
 .comment-reply-link:link, .comment-reply-link:visited,
 .comment-edit-link:link,
 .comment-edit-link:visited {
-  color: #4d4d4d;
+  color: #1f1c1c;
 }
 .comment-reply-link:hover, .comment-reply-link:active, .comment-reply-link:focus,
 .comment-edit-link:hover,
@@ -1770,7 +1769,7 @@ li.pingback:first-child {
   max-width: none;
 }
 .site-footer .widget_search .search-submit {
-  background: #4d4d4d;
+  background: #1f1c1c;
   width: 100%;
   max-width: none;
   min-width: none;
